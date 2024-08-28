@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android_Homework_WritingContacts</string>
+
+    <string name="first_name_et">First name</string>
+    <string name="last_name_et">Last name</string>
+    <string name="mobile_pn_et">Phone number, mobile</string>
+    <string name="work_pn_et">Phone number, work</string>
+    <string name="email_address">Email</string>
+    <string name="birthdate">Birthdate</string>
+
+    <string name="save_contact_btn">Save</string>
+    <string name="clear_fields_btn">Clear</string>
+</resources>

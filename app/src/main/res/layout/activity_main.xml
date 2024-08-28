@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="firstName"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/first_name_et"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="lastName"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/last_name_et"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/mobilePhoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="phone"
+        android:ems="10"
+        android:hint="@string/mobile_pn_et"
+        android:inputType="phone"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/workPhoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="phone"
+        android:ems="10"
+        android:hint="@string/work_pn_et"
+        android:inputType="phone"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/birthdateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="date"
+        android:ems="10"
+        android:hint="@string/birthdate"
+        android:inputType="date"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveContactButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:text="@string/save_contact_btn"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/clearFieldsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1"
+            android:text="@string/clear_fields_btn"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
