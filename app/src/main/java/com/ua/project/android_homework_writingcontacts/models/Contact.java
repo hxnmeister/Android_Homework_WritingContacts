@@ -17,5 +17,5 @@ public class Contact {
     private String mobilePhoneNumber;
     private String workPhoneNumber;
     private String emailAddress;
-    private LocalDate birthDate;
+    private String birthDate;
 }

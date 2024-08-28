@@ -14,8 +14,8 @@
         android:layout_height="50dp"
         android:autofillHints="firstName"
         android:ems="10"
+        android:hint="@string/first_name_et"
         android:inputType="text"
-        android:text="@string/first_name_et"
         android:textSize="20sp" />
 
     <EditText
@@ -24,8 +24,8 @@
         android:layout_height="50dp"
         android:autofillHints="lastName"
         android:ems="10"
+        android:hint="@string/last_name_et"
         android:inputType="text"
-        android:text="@string/last_name_et"
         android:textSize="20sp" />
 
     <EditText
